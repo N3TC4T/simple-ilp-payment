@@ -5,7 +5,11 @@ Tested with local `moneyd` instance on XRP livenet.
 # How to use
 
 1. `npm install`
-2. `node index.js`
+2. `node index.js node index.js receiver amount`
+
+# Sample
+
+`node index.js '$twitter.xrptipbot.com/WietseWind' 5000`
 
 A total of `5000` drops will be sent to `$twitter.xrptipbot.com/WietseWind` ([`index.js`,  line ~ 80](https://github.com/WietseWind/simple-ilp-payment/blob/master/index.js#L80)).
 

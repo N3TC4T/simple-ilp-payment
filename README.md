@@ -5,7 +5,7 @@ Tested with local `moneyd` instance on XRP livenet.
 # How to use
 
 1. `npm install`
-2. `node index.js node index.js receiver amount`
+2. `node index.js receiver amount`
 
 # Sample
 
